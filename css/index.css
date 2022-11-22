@@ -1,0 +1,299 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #272b3f;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* header css start */
+
+div.navbar {
+    background-color: #444c55 !important;
+    /* height: 5% !important; */
+}
+
+div.navbar-nav a {
+    font-size: 10%;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color: azure !important;
+}
+
+.nav-link:hover {
+    color: #f28500 !important;
+}
+
+button.custom-btn div.line-menubar {
+    height: 3px;
+    width: 30px;
+    margin: 5px 0px;
+    background-color: azure;
+}
+
+button.navbar-toggler {
+    border: azure 2px solid !important;
+}
+
+button.navbar-toggler:hover {
+    border: #f28500 2px solid !important;
+}
+
+
+/* header css End */
+
+
+/* espresso Start */
+
+.html-text {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.espresso {
+    color: #000;
+    background-color: #efefefb0;
+    margin-top: 85px !important;
+    font-size: 16px;
+}
+
+.button {
+    width: 140px;
+    height: 42px;
+    background-color: #545454;
+    transition: 0.5s;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.coding {
+    /* height: 20%;
+    width: 20%; */
+    background-color: #444c55;
+    overflow: auto;
+    white-space: nowrap;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.html-white {
+    color: white !important;
+}
+
+.html-yellow {
+    color: #cc6600;
+}
+
+.html-red {
+    color: #ee4800;
+}
+
+.html-green {
+    color: green;
+}
+
+.html-blue {
+    color: #1a8cff;
+}
+
+.html-black {
+    color: black;
+}
+
+
+/* espresso End */
+
+.cas-pro {
+    text-align: center;
+    font-size: 300%;
+    font-family: auto;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+.Espresso {
+    border: #444c55 solid 1px;
+}
+
+.Espresso p {
+    margin-top: 10px;
+    margin-left: 3%;
+    text-align: left;
+    font-size: 16px;
+    color: #272b3f;
+    /* font-size: auto; */
+}
+
+.btn-get-started {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.Socket-header {
+    border: #444c55 solid 1px;
+}
+
+.TangoScript-header {
+    border: #444c55 solid 1px;
+}
+
+.button1 {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 150px;
+    height: 42px;
+    background-color: #545454;
+    transition: 0.5s;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.line {
+    margin-top: 300px !important;
+    border: #444c55 solid 1px;
+}
+
+.Installation {
+    margin-bottom: 400px;
+}
+
+.Installation-header {
+    margin-top: 12px;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 300%;
+    font-family: auto;
+    font-weight: bold;
+}
+
+.Install {
+    font-size: 5px;
+}
+
+.sudo {
+    color: #4d4d4d;
+    background-color: #efefef;
+    margin-bottom: 24px;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.NextPrev li a {
+    width: 100px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #545454;
+    color: #fff;
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+.NextPrev li a:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.text-right ul li {
+    display: inline-block;
+}
+
+.footer {
+    background-color: #32383e !important;
+    color: #a1aab4;
+}
+
+.footer_container {
+    padding: 0 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.footer-coppyright p {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+/* Scrollbar start */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Scrollbar End */
+
+.footer-coppyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+@media(max-width:1199px) {
+    .footer_container {
+        max-width: 960px;
+    }
+}
+
+@media(max-width:991px) {
+    .footer_container {
+        max-width: 750px;
+    }
+}
+
+@media(max-width:768px) {
+    .footer_container {
+        max-width: 560px;
+    }
+}
+
+@media(max-width:340px) {
+    .footer_container {
+        max-width: 100%;
+    }
+}

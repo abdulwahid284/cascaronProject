@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* header css start */
+
+div.navbar {
+    background-color: #444c55 !important;
+    /* height: 5% !important; */
+}
+
+div.navbar-nav a {
+    font-size: 10%;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color: azure !important;
+}
+
+.nav-link:hover {
+    color: #f28500 !important;
+}
+
+button.custom-btn div.line-menubar {
+    height: 3px;
+    width: 30px;
+    margin: 5px 0px;
+    background-color: azure;
+}
+
+button.navbar-toggler {
+    border: azure 2px solid !important;
+}
+
+button.navbar-toggler:hover {
+    border: #f28500 2px solid !important;
+}
+
+
+/* header css End */
+
+.cascaron {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cascaron p {
+    font-size: 20px;
+    margin: auto;
+}
+
+.html-IPRF {
+    color: #c87137;
+}
+
+img.img-nafis-sir {
+    border: #f2f2f2 10px solid !important;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 150px;
+    width: 120px;
+}
+
+section.team {
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+section.team p {
+    font-size: 18px;
+    margin: auto;
+}
+
+.team-header {
+    color: #4d4d4d;
+}
+
+
+/* Footer Start */
+
+.footer {
+    width: 100%;
+    height: 35px;
+    background-color: #32383e !important;
+    color: #a1aab4;
+}
+
+
+/* Footer End */

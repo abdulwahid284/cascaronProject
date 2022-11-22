@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* //font-family:sans-serif; */
+}
+
+
+/* header css start */
+
+div.navbar {
+    background-color: #444c55 !important;
+    /* height: 5% !important; */
+}
+
+div.navbar-nav a {
+    font-size: 10%;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color: azure !important;
+}
+
+.nav-link:hover {
+    color: #f28500 !important;
+}
+
+button.custom-btn div.line-menubar {
+    height: 3px;
+    width: 30px;
+    margin: 5px 0px;
+    background-color: azure;
+}
+
+button.navbar-toggler {
+    border: azure 2px solid !important;
+}
+
+button.navbar-toggler:hover {
+    border: #f28500 2px solid !important;
+}
+
+
+/* header css End */
+
+#sidebar {
+    position: absolute;
+    top: 80px;
+    left: -255px;
+    width: 17%;
+    /* //height:100%; */
+    background-color: #32383e;
+    transition: all 300ms linear;
+}
+
+#sidebar li a {
+    display: block;
+    color: #a1aab4;
+    font-size: 20px;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.list ul li {
+    list-style: none;
+    padding: 0px;
+}
+
+#sidebar.active {
+    left: 0px;
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 261px;
+    top: 0px;
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+#sidebar div.list div.item {
+    padding: 15px 10px;
+    border-bottom: 1px solid #444;
+    /* //color:#fcfcfc; */
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#sidebar ul li {
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+
+.list ul li a {
+    padding: 12px 18px;
+    text-decoration: none;
+    display: block;
+    color: green;
+    font-size: 20px;
+}
+
+.list ul li h5 {
+    color: #ffffff
+}
+
+#sidebar ul li a:hover {
+    color: #ffffff;
+    transition: color .1s ease;
+}
+
+.docs_bgColor {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.ex-Cont {
+    position: relative;
+    font-size: 0px;
+}
+
+.ex-tabelCont,
+.ex-docCont,
+.ex-ads {
+    display: inline-block;
+    font-size: 16px;
+    width: 20%;
+    vertical-align: top;
+}
+
+.ex-tabelCont {
+    background-color: rgba(239, 239, 239, 0.69);
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    top: 72px;
+    padding-bottom: 80px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ex-tabelCont {
+    background-color: rgba(239, 239, 239, 0.69);
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    top: 72px;
+    padding-bottom: 80px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ex-tabelCont>ul>li {
+    padding: 8px 12px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ex-tabelCont>ul>li:hover {
+    background-color: #444c55;
+}
+
+.ex-tabelCont>ul>li:hover a {
+    color: #fff;
+}
+
+.ex-tabelCont>h2 {
+    margin-top: 14px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: #ccc;
+}

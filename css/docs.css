@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* //font-family:sans-serif; */
+}
+
+
+/* header css start */
+
+div.navbar {
+    background-color: #444c55 !important;
+    /* height: 5% !important; */
+}
+
+div.navbar-nav a {
+    font-size: 10%;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color: azure !important;
+}
+
+.nav-link:hover {
+    color: #f28500 !important;
+}
+
+button.custom-btn div.line-menubar {
+    height: 3px;
+    width: 30px;
+    margin: 5px 0px;
+    background-color: azure;
+}
+
+button.navbar-toggler {
+    border: azure 2px solid !important;
+}
+
+button.navbar-toggler:hover {
+    border: #f28500 2px solid !important;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* //font-family:sans-serif; */
+}
+
+
+/* header css start */
+
+div.navbar {
+    background-color: #444c55 !important;
+    /* height: 5% !important; */
+}
+
+div.navbar-nav a {
+    font-size: 10%;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color: azure !important;
+}
+
+.nav-link:hover {
+    color: #f28500 !important;
+}
+
+button.custom-btn div.line-menubar {
+    height: 3px;
+    width: 30px;
+    margin: 5px 0px;
+    background-color: azure;
+}
+
+button.navbar-toggler {
+    border: azure 2px solid !important;
+}
+
+button.navbar-toggler:hover {
+    border: #f28500 2px solid !important;
+}
+
+
+/**************Side bar ************/
+
+.docs_bgColor {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.ex-Cont {
+    position: relative;
+    font-size: 0px;
+}
+
+.ex-docCont {
+    width: 80%;
+    padding: 24px;
+    left: 20%;
+    position: relative;
+}
+
+.ex-ads {
+    height: 100%;
+    display: none;
+    background-color: rgba(239, 239, 239, 0.69);
+    height: 100vh;
+}
+
+.ex-tableCont {
+    background-color: rgba(239, 239, 239, 0.69);
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    top: 72px;
+    padding-bottom: 80px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ex-tabelCont>ul>li {
+    padding: 8px 12px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.active {
+    /* background-color: #444c55; */
+    color: #ee4800;
+    font-size: larger;
+}
+
+
+/* section.docs_bgColor ul li a {
+    color: #000000;
+} */
+
+.ex-tabelCont>ul>li:hover {
+    background-color: #444c55;
+}
+
+.ex-tabelCont>ul>li:hover a {
+    color: #fff;
+}
+
+.ex-tabelCont>h2 {
+    margin-top: 14px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: #ccc;
+}
+
+.ex-getIntro {
+    font-size: 15px;
+    font-family: auto;
+}
+
+.ex-getIntro>p>a {
+    font-weight: bold;
+}
+
+
+/* .ex-tabelCont>ul {} */
+
+.ex-tableCont>ul>li {
+    padding: 8px 12px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.active {
+    /* background-color: #444c55; */
+    color: #ee4800;
+    font-size: larger;
+}
+
+.activeGreen {
+    background-color: #444c55;
+    color: #fff;
+}
+
+.activeGreen a {
+    color: #fff;
+}
+
+
+/* .activeGreen ul li {
+    background-color: #444c55;
+    color: #fff;
+} */
+
+.ex-tableCont ul li:hover {
+    background-color: #444c55;
+    /* color: #fff; */
+}
+
+.ex-tableCont ul li:hover a {
+    color: #fff;
+}
+
+.ex-tableCont h2 {
+    margin-top: 14px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: #ccc;
+}
+
+.ex-tableCont,
+.ex-docCont,
+.ex-ads {
+    display: inline-block;
+    font-size: 16px;
+    width: 20%;
+    vertical-align: top;
+}
+
+.ex-tableCont,
+.ex-docCont,
+.ex-ads {
+    display: inline-block;
+    font-size: 16px;
+    width: 20%;
+    vertical-align: top;
+}
+
+.ex-docCont {
+    width: 80%;
+    padding: 24px;
+    left: 20%;
+    position: relative;
+    margin-top: 60px;
+}
+
+
+/* .get-started {
+    margin-top: 100px;
+    margin-left: 400px;
+} */
+
+.comment {
+    color: #666;
+}
+
+.sudo p {
+    margin: 0px;
+}
+
+section.docs_bgColor ul {
+    list-style-type: none;
+}
+
+.ex-docCont ul {
+    margin-left: 30px;
+}
+
+.ex-docCont ul li a {
+    font-size: 17px;
+}
+
+
+/* Scrollbar start */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: green !important;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Scrollbar End */

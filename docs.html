@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cascaron | Espresso</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/docs.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <script type="text/javascript">
+        function toggleSidebar(ref) {
+            document.getElementById("sidebar").classList.toggle('active');
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- Header started -->
+    <div class="fixed-top navbar navbar-expand-md navbar-light bg-dark mb-5">
+        <a href="index.html" class="navbar-brand">
+            <img src="images/Cascaron.svg" width="250px" alt="Cascaron">
+        </a>
+        <button type="button" class="navbar-toggler custom-btn" data-toggle="collapse" data-target="#menu"> 
+                <div class="line-menubar"></div>
+                <div class="line-menubar"></div>
+                <div class="line-menubar"></div>
+        </button>
+        <div class="collapse navbar-collapse ml-5" id="menu">
+            <div class="navbar-nav mx-auto">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="docs.html" class="nav-item nav-link ">Docs</a>
+                <a href="about.html" class="nav-item nav-link ">About</a>
+                <a href="download.html" class="nav-item nav-link ">Download</a>
+                <a href="#" class="nav-item nav-link ">Certifications</a>
+                <a href="#" class="nav-item nav-link ">Feedback</a>
+            </div>
+        </div>
+    </div>
+    <!-- Header end -->
+
+
+
+    <section class="docs_bgColor">
+        <div class="ex-Cont">
+            <div class="ex-tableCont">
+                <h2> Espresso Tutorial</h2>
+                <ul>
+                    <li class="activeGreen"> <a href="docs.html"> Get started: Espresso </a> </li>
+                    <li> <a href="expressoandc++.html"> Espresso and c++ </a> </li>
+                    <li> <a href="fundamentals.html"> Fundamentals</a> </li>
+                    <li> <a href="http.html"> HTTP / HTTPS</a> </li>
+                    <li> <a href="request.html"> Request  </a> </li>
+                    <li> <a href="response.html"> Response</a> </li>
+                    <li> <a href="#"> Router </a> </li>
+                    <li> <a href="#"> Debugger </a> </li>
+                    <li> <a href="#"> SIGNAL </a> </li>
+                    <li> <a href="#"> SLOT </a> </li>
+                    <li> <a href="#"> Executor </a> </li>
+                    <li> <a href="#"> Path </a> </li>
+                    <li> <a href="#"> File System </a> </li>
+                    <li> <a href="#"> Tagging </a> </li>
+                    <li> <a href="#"> Shared Memory Allocator </a> </li>
+                    <li> <a href="#"> Inter-Process Communication </a> </li>
+                    <li> <a href="#"> Threads </a> </li>
+                    <li> <a href="#"> Process </a> </li>
+                    <li> <a href="#"> Asynchronous </a> </li>
+                    <li> <a href="#"> FTP </a> </li>
+                    <li> <a href="#"> Socket </a> </li>
+                    <li> <a href="#"> MYSQL Database Connector </a> </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="ex-docCont">
+        <div class="ex-getCont">
+            <h5>Espresso: Get Started</h5>
+            <div class="ex-getIntro">
+                <p> Espresso - A web framework that compatible to <a href="https://en.cppreference.com/w/cpp/14" class="html-green">C++14 </a> and above, for that need to install latest version of GNU-GCC-7.5 or above. This tutorial will guide every single
+                    step for installation and will guide you to build a sample mini project with details about the code structure.
+                </p>
+                <p> <a href="#" class="html-green">Espresso+</a> compiler which combines espresso code and C++ and converts to executable code. In <a href="#" class="html-green">Espresso+</a> doesn't have C++ compiler, if there is no GNU compiler it is not
+                    possible to execute Espresso code anyways because Espresso framework is built on the top of C++14 and C++17 and so need to upgrade your C++ compiler to latest version. So Espresso framework could possible to embed C++ code also. The
+                    structure of semantics are very concise and readable that makes it's beauty.
+                </p>
+                <p> Distributed to apt repository from where can be installed on Linux system.
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="ex-docCont">
+        <span>Check Gcc version already install, must have gcc-7.5 or above</span>
+        <div class="sudo">
+            <p><span class="html-white">$ </span><span class="html-black ml-1"> g++ -version  </span><span class="comment ml-5">//   g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0</span>
+            </p>
+        </div><br>
+        <p>If there is not installed C++ compiler then execute following command as:</p>
+        <div class="sudo">
+            <p>
+                <span class="html-white">$ </span> <span class="html-black ml-1"> sudo apt-get install gcc-7.5.0</span>    <span class="comment">//     For Installation</span>
+
+            </p>
+            <p><span class="html-white">$</span> <span class="html-black ml-1"> sudo apt-get install gcc-7.5.0</span>     <span class="comment">//     For Upgrade</span>
+
+            </p>
+        </div><br>
+        <span>Once GCC compiler successfully installed then execute folowing command for Espresso Compiler as:</span>
+        <div class="sudo">
+            <p><span class="html-white">$<span class="html-black ml-1"> sudo apt-get install espresso</span></span>
+            </p>
+        </div><br>
+        <span>To know which version installed:</span>
+        <div class="sudo">
+            <p>
+                <span class="html-white">$</span> <span class="html-black ml-1"> espresso+   --version </span>    <span class="comment">//       installed version:  Espresso_1.0.0-v</span>
+            </p>
+        </div><br>
+        <span>For testing whether Espresso is properly working or not, just copy the following code in <span class="html-blue">test.es</span></span>
+
+        <div class="sudo">
+            <span class="html-black"><span class="html-yellow">auto</span> espresso =<span class="html-yellow">import</span>(<span class="html-red">"espresso"</span>).(<span class="html-red">"http"</span>);</span>
+            <div class="html-black"><span class="html-yellow">auto</span> app = espresso();</div>
+            <div class="html-black">app.get(<span class="html-yellow">"/"</span>.<span class="html-green">function</span>(request, response, err){</div>
+            <div class="html-black pl-3"><span class="html-green">if</span>(err == ERROR){</div>
+            <div class="html-black pl-5">console.err(<span class="html-red">"error: "</span>, err );</div>
+            <div class="html-black pl-3">}<span class="html-green">else</span>{</div>
+            <div class="html-black pl-5">response.send(<span class="html-red">"hello world"</span>);</div>
+            <div class="html-black pl-3">}</div>
+            <div class="html-black">});</div>
+            <div class="html-black">app.run(<span class="html-red">"8080"</span>,<span class="html-green">function</span>(err){</div>
+            <div class="html-black pl-3">console.log(<span class="html-red">"Server started at "</span>,<span class="html-red">8080 </span>);</div>
+            <div class="html-black">});</div>
+        </div><br>
+        <span>Now open the Terminal and run the following command as:</span>
+
+        <div class="sudo">
+            <p><span class="html-white">$<span class="html-black pl-3">   espresso+ </span></span><span class="html-blue pl-5">test.es</span></p>
+            <p><span class="html-white">$ <span class="html-red pl-3">   ./espresso </span></span>
+            </p>
+            <p><span class="html-blacl pl-4">Server started at 8080</span></p>
+        </div><br>
+        <span>Once Server is started the open chrome browser and paste the following queryline then you will get the message.</span>
+        <div class="sudo">
+            <p><span class="html-black">localhost:8080</span>
+            </p>
+        </div><br>
+        <hr><br>
+        <span>The import is executed at runtime and return object which is by defualt auto type. object is one-time creation throughout the program, next time will give exeptions-throw. Espresso has many statndard libraries with no file-extension but user-defined
+            library has to have file-extension i.e .es</span>
+
+        <div class="sudo">
+            <p><span class="html-yellow">auto <span class="html-black">espresso = import(</span><span class="html-red">"espresso"</span><span class="html-black">);</span><span class="comment pl-5">//      Standard</span></span>
+            </p>
+            <p><span class="html-yellow">auto <span class="html-black"> user-defined_lib = import(</span><span class="html-red">"your-filename.es"</span><span class="html-black">);</span><span class="comment pl-5"> //      User-defined</span></span>
+            </p>
+        </div><br>
+        <p>After creation the object then <span class="html-yellow">operator ()</span> is called that returns the main espresso application object which is again one-time created.</p>
+
+        <div class="sudo">
+            <p><span class="html-yellow">auto <span class="html-black">app = espresso();</span></span>
+            </p>
+        </div><br>
+        <span>Espresso application object has Restfull Methods:<span class="html-green"> GET, POST, DELETE</span> and <span class="html-green">PUT</span> Method that takes two arguments: a delimeter and a anonymous callback function. The anonymous callback
+        function takes objects: request, response and error as parameters. The third argument is flag: error which is optional.</span>
+
+        <div class="sudo">
+            <span class="html-black"><span class="html-yellow">auto </span>app = espresso();</span>
+            <div class="html-black">app.get(<span class="html-yellow">"/" </span>,<span class="html-green">function</span>(request, response, err){</div>
+            <div class="html-black pl-3"><span class="html-green">if</span>(err == ERROR){</div>
+            <div class="html-black pl-5">console.err(<span class="html-red">"error: ",</span>, err );</div>
+            <div class="html-black pl-3">}<span class="html-green">if</span>{</div>
+            <div class="html-black pl-5"> response.send(<span class="html-red">"hello world"</span>);</div>
+            <div class="html-black pl-3">}</div>
+            <div class="html-black">});</div>
+        </div><br>
+        <span>Espresso application object has run function that takes two arguments: Port number and a anonymous callback function which takes a flag as a parameter.</span>
+
+        <div class="sudo">
+            <span class="html-black">app.run(<span class="html-red">"8080" </span>,<span class="html-green">function</span>(err){</span>
+            <div class="html-black pl-5">console.log(<span class="html-red">"Server started at "</span>,<span class="html-red">8080</span>);</div>
+            <div class="html-black">});</div>
+        </div><br>
+
+        <div class="text-right">
+            <ul class="next-prev NextPrev">
+                <li>
+                    <a href="docs.html">Prev</a>
+                </li>
+                <li>
+                    <a href="expressoandc++.html">Next</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
